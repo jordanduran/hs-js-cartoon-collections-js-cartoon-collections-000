@@ -4,7 +4,7 @@
   // go through the line of dwarves
    for(var i = 4; i < dwarves.length; i--){
   // give each dwarf a number and add them to the new line
-    dwarfNum.push(`${i+1}. ${dwarves[i]} `);
+    dwarfNum.push(`${i-0}. ${dwarves[i]} `);
   }
   // alert the user of the new line of dwarves with their numbers
   return dwarfNum.join("");
