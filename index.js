@@ -1,9 +1,9 @@
-function dwarfRollCall(dwarves) {
+  function dwarfRollCall(dwarves) {
   // created a new line for the dwarves 
-  var dwarfNum = [];
+   var dwarfNum = [];
   // go through the line of dwarves
-  for(var i = 0; i < dwarves.length; i++){
-    // give each dwarf a number and add them to the new line
+   for(var i = 0; i < dwarves.length; i++){
+  // give each dwarf a number and add them to the new line
     dwarfNum.push(`${i+1}. ${dwarves[i]} `);
   }
   // alert the user of the new line of dwarves with their numbers
@@ -15,7 +15,7 @@ function summonCaptainPlanet(planeteerCalls){
   var newArray = [];
   // go through each planeteer call 
   for(var i = 0; i < planeteerCalls.length; i++){
-    //at the new planeteerCalls screams to a new array
+  //at the new planeteerCalls screams to a new array
     newArray.push(`${planeteerCalls[i].toUpperCase()}!`);
   }
   // call that array
