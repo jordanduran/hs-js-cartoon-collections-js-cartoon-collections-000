@@ -39,7 +39,7 @@ function findTheCheese (foods) {
   // go through the list of foods
   for(var i = 0; i < foods.length; i++){
     // if any of the foods are cheese 
-    if(foods[i] === ("cheddar" || "gouda" || "camembert")){
+    if(foods[i] === ("cheddar")){
       // alert the user of the first cheese
       return foods[i];
     } 
