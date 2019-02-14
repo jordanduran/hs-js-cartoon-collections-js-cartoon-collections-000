@@ -2,7 +2,7 @@
   // created a new line for the dwarves 
    var dwarfNum = [];
   // go through the line of dwarves
-   for(var i = 0; i < dwarves.length; i++){
+   for(var i = 4; i < dwarves.length; i++){
   // give each dwarf a number and add them to the new line
     dwarfNum.push(`${i+1}. ${dwarves[i]} `);
   }
@@ -39,7 +39,7 @@ function findTheCheese (foods) {
   // go through the list of foods
   for(var i = 0; i < foods.length; i++){
     // if any of the foods are cheese 
-    if(foods[i] === ("cheddar")){
+    if(foods[i] === ("cheddar" || "gouda" || "camembert")){
       // alert the user of the first cheese
       return foods[i];
     } 
